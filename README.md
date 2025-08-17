@@ -61,15 +61,17 @@ The project follows a standard React application structure:
 
 your-repo-name/
 ├── public/
-│   ├── index.html
-│   └── ...
+│   ├── index.html          # Main HTML template
+│   ├── favicon.ico         # Website icon
+│   └── manifest.json       # Web app manifest
 ├── src/
-│   ├── assets/         # Images, fonts, and other static files
-│   ├── components/     # Reusable React components (Navbar, Footer, Card, etc.)
-│   ├── pages/          # Main page components (Home, About, Contact, etc.)
-│   ├── App.css
-│   ├── App.js
-│   └── index.js
+│   ├── assets/             # Static files
+│   ├── components/
+│   ├── styles/             # Global styles, variables, and mixins
+│   │   └── main.css
+│   ├── App.js              # Main component with routing logic
+│   ├── index.js            # Application entry point
+│   └── index.css           # Global stylesheet entry
 ├── .gitignore
 ├── package.json
 └── README.md
