@@ -57,24 +57,7 @@ npm install npm@latest -g
 
 ## 📂 Project Structure
 
-The project follows a standard React application structure:
-
-your-repo-name/
-├── public/
-│   ├── index.html          # Main HTML template
-│   ├── favicon.ico         # Website icon
-│   └── manifest.json       # Web app manifest
-├── src/
-│   ├── assets/             # Static files
-│   ├── components/
-│   ├── styles/             # Global styles, variables, and mixins
-│   │   └── main.css
-│   ├── App.js              # Main component with routing logic
-│   ├── index.js            # Application entry point
-│   └── index.css           # Global stylesheet entry
-├── .gitignore
-├── package.json
-└── README.md
+The project follows a standard React application structure and a scalable, feature-oriented structure compatible with Vite.
 
 ## 🤝 Contributing
 
